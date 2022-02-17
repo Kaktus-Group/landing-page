@@ -4,6 +4,7 @@ module.exports = {
     extend: {
       colors: {
         btnPrimary: "#FA541C",
+        bgTransparent: "rgba(255,255,255,0.3)"
       },
       fontFamily: {
         barlow: ["Barlow", "sans-serif"],
