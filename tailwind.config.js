@@ -4,6 +4,7 @@ module.exports = {
     extend: {
       colors: {
         btnPrimary: "#FA541C",
+        inputPlaceholder: "#E7EAED",
       },
       fontFamily: {
         barlow: ["Barlow", "sans-serif"],
@@ -11,9 +12,12 @@ module.exports = {
       },
       fontWeight: {
         bold: 800,
+        bolder: 600,
       },
       screens: {},
-      fontSize: {},
+      fontSize: {
+        buttonSize: "13px",
+      },
     },
   },
   plugins: [],

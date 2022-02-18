@@ -1,10 +1,7 @@
-import React from 'react';
+import React from "react";
+import Email from "../components/Input";
 
-const Root =()=> {
-  return (
-    <div>
-      <h1 className='text-2xl '> Root</h1>
-    </div>
-  )
-}
+const Root = () => {
+  return <div></div>;
+};
 export default Root;
