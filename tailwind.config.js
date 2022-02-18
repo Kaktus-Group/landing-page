@@ -5,6 +5,8 @@ module.exports = {
       colors: {
         btnPrimary: "#FA541C",
         inputPlaceholder: "#E7EAED",
+        infoColor: "#141414",
+        infoWord: "#647481",
       },
       fontFamily: {
         barlow: ["Barlow", "sans-serif"],

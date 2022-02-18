@@ -1,9 +1,10 @@
-import { FaLocationArrow } from "react-icons/fa";
+import { FaCalendar } from "react-icons/fa";
+
 const Calendar = () => {
   return (
-    <div>
-      <FaLocationArrow />
-      <p className="font-weight">where we go?</p>
+    <div className="flex align-center justify-center">
+      <FaCalendar className="text-infoWord mb-0 text-xl mr-2 mt-1" />
+      <p className="font-bolder text-infoWord text-xl">Departure day</p>
     </div>
   );
 };
