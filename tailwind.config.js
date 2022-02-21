@@ -19,7 +19,9 @@ module.exports = {
       screens: {},
       fontSize: {
         buttonSize: "13px",
+        modalSize:"22px"
       },
+   
     },
   },
   plugins: [],

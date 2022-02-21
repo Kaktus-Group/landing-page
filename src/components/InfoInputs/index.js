@@ -5,15 +5,11 @@ import Location from "./Location";
 import Search from "./searchBtn";
 const InfoInputs = () => {
   return (
-    <div className="bg-infoColor flex justify-between  w-full p-8">
-      <div className="flex justify-between align-center w-4/5 ">
-        <Location />
-        <Calendar />
-        <Guests />
-      </div>
-      <div>
-        <Search />
-      </div>
+    <div className="bg-infoColor flex justify-between w-full p-8">
+      <Location />
+      <Calendar />
+      <Guests />
+      <Search />
     </div>
   );
 };
